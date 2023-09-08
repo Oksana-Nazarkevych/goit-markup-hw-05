@@ -606,26 +606,28 @@
           </svg>
         </button>
 
-        <p>Leave your contacts and we will call you back</p>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="reviev-form">
           <div class="reviev-form-field-wrapper">
             <label class="reviev-form-field-label" for="user-name">Name</label>
-            <input
-              class="reviev-form-input"
-              type="text"
-              id="user-name"
-              name="user-name"
-              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
-              title="Oksana"
-            />
-            <svg
-              class="reviev-form-field-icon"
-              width="24"
-              height="18"
-              aria-label="person-icon"
-            >
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
+            <div class="modal-reviev">
+              <input
+                class="reviev-form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+                title="Your name"
+              />
+              <svg
+                class="reviev-form-field-icon"
+                width="24"
+                height="18"
+                aria-label="person-icon"
+              >
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="reviev-form-field-wrapper">
             <label class="reviev-form-field-label" for="user-phone"
