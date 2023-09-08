@@ -595,18 +595,76 @@
     <!-- ----Backdrop with modal window -->
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="close-btn">
+        <button class="close-btn" type="button">
           <svg
             class="close-btn-icon"
-            width="24"
-            hight="24"
+            width="8"
+            height="8"
             aria-label="modal close icon"
           >
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <form class="form">
-          <p>Leave your contacts and we will call you back</p>
+
+        <p>Leave your contacts and we will call you back</p>
+        <form class="reviev-form">
+          <div class="reviev-form-field-wrapper">
+            <label class="reviev-form-field-label" for="user-name">Name</label>
+            <input
+              class="reviev-form-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+              title="Oksana"
+            />
+            <svg
+              class="reviev-form-field-icon"
+              width="24"
+              height="18"
+              aria-label="person-icon"
+            >
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+          <div class="reviev-form-field-wrapper">
+            <label class="reviev-form-field-label" for="user-phone"
+              >Phone</label
+            >
+            <input
+              class="reviev-form-input"
+              type="tel"
+              id="user-phone"
+              name="user-phone"
+            />
+            <svg
+              class="reviev-form-field-icon"
+              width="24"
+              height="18"
+              aria-label="phone-icon"
+            >
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <div class="reviev-form-field-wrapper">
+            <label class="reviev-form-field-label" for="user-email"
+              >Email</label
+            >
+            <input
+              class="reviev-form-input"
+              type="email"
+              id="user-email"
+              name="user-email"
+            />
+            <svg
+              class="reviev-form-field-icon"
+              width="24"
+              height="18"
+              aria-label="email-icon"
+            >
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
         </form>
       </div>
     </div>
