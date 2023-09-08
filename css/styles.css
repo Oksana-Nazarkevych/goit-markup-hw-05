@@ -542,10 +542,10 @@ button {
     padding: 72px 24px 24px 24px;
 }
 
-.modal:hover,
+/* .modal:hover,
 .modal:focus {
     fill: #ffffff
-}
+} */
 
 .close-btn {
     position: absolute;
