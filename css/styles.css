@@ -677,10 +677,9 @@ button {
 }
 
 .input-check:checked+.reviev-form-checkbox-label>.reviev-form-own-checkbox {
-    background-color: #484bbf;
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-    ;
 }
 
 .reviev-form-input:focus+.reviev-form-field-icon {
