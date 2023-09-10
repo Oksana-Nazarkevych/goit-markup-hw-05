@@ -475,6 +475,7 @@ button {
 .top-icon {
     display: flex;
     gap: 16px;
+    margin-right: 80px;
 }
 
 .icons {
@@ -529,7 +530,7 @@ button {
     color: #ffffff;
 }
 
-.fooret-button {
+.footer-button {
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -545,6 +546,7 @@ button {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    transform: translateY(-120%);
 }
 
 .button-send {
@@ -674,6 +676,13 @@ button {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.input-check:checked+.reviev-form-checkbox-label>.reviev-form-own-checkbox {
+    background-color: #484bbf;
+    border: none;
+    fill: #F4F4FD;
+    ;
+}
+
 .reviev-form-input:focus+.reviev-form-field-icon {
     fill: #4D5AE5;
 }
@@ -737,6 +746,7 @@ button {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .privacy-link {
